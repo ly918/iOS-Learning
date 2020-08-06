@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="hch-E6-9bq">
+                                <rect key="frame" x="3" y="134" width="369" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="369" id="RDG-Yj-8Al"/>
+                                    <constraint firstAttribute="height" constant="130" id="ma5-pZ-Lql"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XlW-PU-9sa">
+                                <rect key="frame" x="67.5" y="609" width="240" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="872-NV-ZHM"/>
+                                    <constraint firstAttribute="height" constant="50" id="pD2-Vu-c7m"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hch-E6-9bq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Ul-yy-qzz"/>
+                            <constraint firstItem="hch-E6-9bq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="MK0-QI-Wcj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XlW-PU-9sa" secondAttribute="bottom" constant="8" id="X9Z-rT-NjO"/>
+                            <constraint firstItem="XlW-PU-9sa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g5t-Pi-JV9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="payView" destination="XlW-PU-9sa" id="Rnf-JN-g07"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="415"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apple" width="758" height="253"/>
+    </resources>
+</document>
