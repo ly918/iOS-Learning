@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="liG-bL-ntF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--UIVisualEffectView-->
+        <scene sceneID="zXB-L4-Hcs">
+            <objects>
+                <viewController id="KXp-jz-u7Y" customClass="VisualEffectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hpJ-PG-htQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="bQz-ob-P8Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1a6-Dv-Hlf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ent-09-LJI">
+                                <rect key="frame" x="180" y="50" width="240" height="128"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="msK-Q7-4zJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Igc-LD-Tt5"/>
+                                    <constraint firstAttribute="width" constant="240" id="b3w-ud-sDH"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visual Effect View with Blur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLw-uQ-s2s">
+                                <rect key="frame" x="196" y="202" width="208" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdV-aQ-Cd9">
+                                <rect key="frame" x="272" y="456" width="56" height="29"/>
+                                <color key="backgroundColor" red="0.23119653979999999" green="0.77124838569999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="改变样式">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeBGImage:" destination="KXp-jz-u7Y" eventType="touchUpInside" id="VQ2-Np-nx9"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bYI-jh-JPC">
+                                <rect key="frame" x="146" y="318" width="309" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="305" id="W1R-hF-X4h"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeValue:" destination="KXp-jz-u7Y" eventType="valueChanged" id="3Qq-1O-8ov"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nn-c4-an2">
+                                <rect key="frame" x="279" y="357" width="42" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="bYI-jh-JPC" secondAttribute="centerX" constant="-0.5" id="3s6-Ap-WBv"/>
+                            <constraint firstItem="bYI-jh-JPC" firstAttribute="centerX" secondItem="0nn-c4-an2" secondAttribute="centerX" id="4fQ-0h-Jkc"/>
+                            <constraint firstItem="0nn-c4-an2" firstAttribute="top" secondItem="bYI-jh-JPC" secondAttribute="bottom" constant="9" id="Eye-HT-ely"/>
+                            <constraint firstAttribute="centerX" secondItem="SdV-aQ-Cd9" secondAttribute="centerX" constant="0.5" id="Kf1-jw-vbI"/>
+                            <constraint firstItem="ent-09-LJI" firstAttribute="centerX" secondItem="iLw-uQ-s2s" secondAttribute="centerX" id="f4W-lR-GgH"/>
+                            <constraint firstItem="bYI-jh-JPC" firstAttribute="top" secondItem="iLw-uQ-s2s" secondAttribute="bottom" constant="95" id="juy-vh-FVB"/>
+                            <constraint firstItem="ent-09-LJI" firstAttribute="top" secondItem="hpJ-PG-htQ" secondAttribute="bottom" constant="30" id="nD2-z7-UCb"/>
+                            <constraint firstAttribute="centerX" secondItem="ent-09-LJI" secondAttribute="centerX" id="nHJ-pk-8eQ"/>
+                            <constraint firstItem="bQz-ob-P8Z" firstAttribute="top" secondItem="SdV-aQ-Cd9" secondAttribute="bottom" constant="66" id="ppE-eX-nmM"/>
+                            <constraint firstItem="iLw-uQ-s2s" firstAttribute="top" secondItem="ent-09-LJI" secondAttribute="bottom" constant="24" id="sQa-Sr-sdG"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="UIVisualEffectView" id="XK2-Tb-dgb"/>
+                    <connections>
+                        <outlet property="effectView" destination="ent-09-LJI" id="OGN-g0-K6y"/>
+                        <outlet property="slider" destination="bYI-jh-JPC" id="yZf-dc-REa"/>
+                        <outlet property="valueLabel" destination="0nn-c4-an2" id="Sd3-AF-3TV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="spj-oF-YS1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="333" y="786"/>
+        </scene>
+        <!--UIImage+ImageEffects-->
+        <scene sceneID="Kzm-QJ-Tzy">
+            <objects>
+                <viewController id="J2l-eB-VFp" customClass="ImageEffectsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9aR-Bc-OUZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="AbU-T9-Uld"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qos-3S-6E0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baby.JPEG" translatesAutoresizingMaskIntoConstraints="NO" id="YXd-0j-fze">
+                                <rect key="frame" x="150" y="20" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="G60-gE-L9X"/>
+                                    <constraint firstAttribute="width" constant="300" id="iYA-Bg-lYC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3k9-vN-kjb">
+                                <rect key="frame" x="270" y="489" width="60" height="30"/>
+                                <state key="normal" title="改变样式">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeStyle:" destination="J2l-eB-VFp" eventType="touchUpInside" id="jf1-aI-34J"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7X-Xf-N2j">
+                                <rect key="frame" x="282" y="361" width="36" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.1411764771" green="0.6784313917" blue="0.1647058874" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="qOj-pp-8mH">
+                                <rect key="frame" x="253" y="421" width="94" height="29"/>
+                                <connections>
+                                    <action selector="changeRadius:" destination="J2l-eB-VFp" eventType="valueChanged" id="YRv-JR-7Zs"/>
+                                </connections>
+                            </stepper>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YXd-0j-fze" firstAttribute="centerX" secondItem="c7X-Xf-N2j" secondAttribute="centerX" id="4SQ-hW-co6"/>
+                            <constraint firstItem="qOj-pp-8mH" firstAttribute="top" secondItem="c7X-Xf-N2j" secondAttribute="bottom" constant="43" id="8E6-LM-fiT"/>
+                            <constraint firstItem="c7X-Xf-N2j" firstAttribute="top" secondItem="YXd-0j-fze" secondAttribute="bottom" constant="41" id="HKM-d7-lRw"/>
+                            <constraint firstItem="AbU-T9-Uld" firstAttribute="top" secondItem="3k9-vN-kjb" secondAttribute="bottom" constant="32" id="JVv-bA-eSI"/>
+                            <constraint firstItem="YXd-0j-fze" firstAttribute="centerX" secondItem="3k9-vN-kjb" secondAttribute="centerX" id="OsD-vl-dYj"/>
+                            <constraint firstItem="qOj-pp-8mH" firstAttribute="centerX" secondItem="c7X-Xf-N2j" secondAttribute="centerX" id="PSL-FW-oha"/>
+                            <constraint firstAttribute="centerX" secondItem="YXd-0j-fze" secondAttribute="centerX" id="XLT-qh-ua8"/>
+                            <constraint firstItem="YXd-0j-fze" firstAttribute="top" secondItem="9aR-Bc-OUZ" secondAttribute="bottom" id="YJZ-ko-d27"/>
+                            <constraint firstItem="3k9-vN-kjb" firstAttribute="top" secondItem="qOj-pp-8mH" secondAttribute="bottom" constant="39" id="exH-Sd-B5g"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="UIImage+ImageEffects" id="5O4-Lh-BrX" userLabel="ImageEffects"/>
+                    <connections>
+                        <outlet property="changeStyleButton" destination="3k9-vN-kjb" id="rY8-ax-8I7"/>
+                        <outlet property="imgView" destination="YXd-0j-fze" id="qFJ-nR-7ZO"/>
+                        <outlet property="stepper" destination="qOj-pp-8mH" id="Ass-Hc-dCH"/>
+                        <outlet property="styleLabel" destination="c7X-Xf-N2j" id="LFo-Kr-VCD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VYv-rW-zRt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="333" y="124"/>
+        </scene>
+        <!--My Tab Bar Controller-->
+        <scene sceneID="JvN-Vg-lrj">
+            <objects>
+                <tabBarController id="liG-bL-ntF" customClass="MyTabBarController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cMe-Ge-r5O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="J2l-eB-VFp" kind="relationship" relationship="viewControllers" id="hkK-ss-SDW"/>
+                        <segue destination="KXp-jz-u7Y" kind="relationship" relationship="viewControllers" id="Epg-sC-tc9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yin-Rd-keC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-795" y="1087"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="baby.JPEG" width="582" height="582"/>
+    </resources>
+</document>

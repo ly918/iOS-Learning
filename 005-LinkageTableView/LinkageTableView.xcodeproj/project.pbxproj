@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D943922A1EBC849300301313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D94392291EBC849300301313 /* main.m */; };
+		D943922D1EBC849300301313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D943922C1EBC849300301313 /* AppDelegate.m */; };
+		D94392301EBC849300301313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D943922F1EBC849300301313 /* ViewController.m */; };
+		D94392331EBC849300301313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94392311EBC849300301313 /* Main.storyboard */; };
+		D94392351EBC849300301313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94392341EBC849300301313 /* Assets.xcassets */; };
+		D94392381EBC849300301313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94392361EBC849300301313 /* LaunchScreen.storyboard */; };
+		D94392431EBC849300301313 /* LinkageTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D94392421EBC849300301313 /* LinkageTableViewTests.m */; };
+		D943924E1EBC849300301313 /* LinkageTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D943924D1EBC849300301313 /* LinkageTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D943923F1EBC849300301313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D943921D1EBC849300301313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94392241EBC849300301313;
+			remoteInfo = LinkageTableView;
+		};
+		D943924A1EBC849300301313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D943921D1EBC849300301313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94392241EBC849300301313;
+			remoteInfo = LinkageTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D94392251EBC849300301313 /* LinkageTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkageTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94392291EBC849300301313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D943922B1EBC849300301313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D943922C1EBC849300301313 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D943922E1EBC849300301313 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D943922F1EBC849300301313 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D94392321EBC849300301313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D94392341EBC849300301313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D94392371EBC849300301313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D94392391EBC849300301313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D943923E1EBC849300301313 /* LinkageTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkageTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94392421EBC849300301313 /* LinkageTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkageTableViewTests.m; sourceTree = "<group>"; };
+		D94392441EBC849300301313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94392491EBC849300301313 /* LinkageTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkageTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D943924D1EBC849300301313 /* LinkageTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkageTableViewUITests.m; sourceTree = "<group>"; };
+		D943924F1EBC849300301313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D94392221EBC849300301313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D943923B1EBC849300301313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94392461EBC849300301313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D943921C1EBC849300301313 = {
+			isa = PBXGroup;
+			children = (
+				D94392271EBC849300301313 /* LinkageTableView */,
+				D94392411EBC849300301313 /* LinkageTableViewTests */,
+				D943924C1EBC849300301313 /* LinkageTableViewUITests */,
+				D94392261EBC849300301313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D94392261EBC849300301313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94392251EBC849300301313 /* LinkageTableView.app */,
+				D943923E1EBC849300301313 /* LinkageTableViewTests.xctest */,
+				D94392491EBC849300301313 /* LinkageTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D94392271EBC849300301313 /* LinkageTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D943922B1EBC849300301313 /* AppDelegate.h */,
+				D943922C1EBC849300301313 /* AppDelegate.m */,
+				D943922E1EBC849300301313 /* ViewController.h */,
+				D943922F1EBC849300301313 /* ViewController.m */,
+				D94392311EBC849300301313 /* Main.storyboard */,
+				D94392341EBC849300301313 /* Assets.xcassets */,
+				D94392361EBC849300301313 /* LaunchScreen.storyboard */,
+				D94392391EBC849300301313 /* Info.plist */,
+				D94392281EBC849300301313 /* Supporting Files */,
+			);
+			path = LinkageTableView;
+			sourceTree = "<group>";
+		};
+		D94392281EBC849300301313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D94392291EBC849300301313 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D94392411EBC849300301313 /* LinkageTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D94392421EBC849300301313 /* LinkageTableViewTests.m */,
+				D94392441EBC849300301313 /* Info.plist */,
+			);
+			path = LinkageTableViewTests;
+			sourceTree = "<group>";
+		};
+		D943924C1EBC849300301313 /* LinkageTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D943924D1EBC849300301313 /* LinkageTableViewUITests.m */,
+				D943924F1EBC849300301313 /* Info.plist */,
+			);
+			path = LinkageTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D94392241EBC849300301313 /* LinkageTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94392521EBC849300301313 /* Build configuration list for PBXNativeTarget "LinkageTableView" */;
+			buildPhases = (
+				D94392211EBC849300301313 /* Sources */,
+				D94392221EBC849300301313 /* Frameworks */,
+				D94392231EBC849300301313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkageTableView;
+			productName = LinkageTableView;
+			productReference = D94392251EBC849300301313 /* LinkageTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D943923D1EBC849300301313 /* LinkageTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94392551EBC849300301313 /* Build configuration list for PBXNativeTarget "LinkageTableViewTests" */;
+			buildPhases = (
+				D943923A1EBC849300301313 /* Sources */,
+				D943923B1EBC849300301313 /* Frameworks */,
+				D943923C1EBC849300301313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D94392401EBC849300301313 /* PBXTargetDependency */,
+			);
+			name = LinkageTableViewTests;
+			productName = LinkageTableViewTests;
+			productReference = D943923E1EBC849300301313 /* LinkageTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D94392481EBC849300301313 /* LinkageTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94392581EBC849300301313 /* Build configuration list for PBXNativeTarget "LinkageTableViewUITests" */;
+			buildPhases = (
+				D94392451EBC849300301313 /* Sources */,
+				D94392461EBC849300301313 /* Frameworks */,
+				D94392471EBC849300301313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D943924B1EBC849300301313 /* PBXTargetDependency */,
+			);
+			name = LinkageTableViewUITests;
+			productName = LinkageTableViewUITests;
+			productReference = D94392491EBC849300301313 /* LinkageTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D943921D1EBC849300301313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BattlePetal;
+				TargetAttributes = {
+					D94392241EBC849300301313 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3637NJMX7D;
+						ProvisioningStyle = Automatic;
+					};
+					D943923D1EBC849300301313 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3637NJMX7D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D94392241EBC849300301313;
+					};
+					D94392481EBC849300301313 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 3637NJMX7D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D94392241EBC849300301313;
+					};
+				};
+			};
+			buildConfigurationList = D94392201EBC849300301313 /* Build configuration list for PBXProject "LinkageTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D943921C1EBC849300301313;
+			productRefGroup = D94392261EBC849300301313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D94392241EBC849300301313 /* LinkageTableView */,
+				D943923D1EBC849300301313 /* LinkageTableViewTests */,
+				D94392481EBC849300301313 /* LinkageTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D94392231EBC849300301313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94392381EBC849300301313 /* LaunchScreen.storyboard in Resources */,
+				D94392351EBC849300301313 /* Assets.xcassets in Resources */,
+				D94392331EBC849300301313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D943923C1EBC849300301313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94392471EBC849300301313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D94392211EBC849300301313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94392301EBC849300301313 /* ViewController.m in Sources */,
+				D943922D1EBC849300301313 /* AppDelegate.m in Sources */,
+				D943922A1EBC849300301313 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D943923A1EBC849300301313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94392431EBC849300301313 /* LinkageTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94392451EBC849300301313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D943924E1EBC849300301313 /* LinkageTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D94392401EBC849300301313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94392241EBC849300301313 /* LinkageTableView */;
+			targetProxy = D943923F1EBC849300301313 /* PBXContainerItemProxy */;
+		};
+		D943924B1EBC849300301313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94392241EBC849300301313 /* LinkageTableView */;
+			targetProxy = D943924A1EBC849300301313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D94392311EBC849300301313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D94392321EBC849300301313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D94392361EBC849300301313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D94392371EBC849300301313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D94392501EBC849300301313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D94392511EBC849300301313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D94392531EBC849300301313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3637NJMX7D;
+				INFOPLIST_FILE = LinkageTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.occode.LinkageTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D94392541EBC849300301313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3637NJMX7D;
+				INFOPLIST_FILE = LinkageTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.occode.LinkageTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D94392561EBC849300301313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3637NJMX7D;
+				INFOPLIST_FILE = LinkageTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.occode.LinkageTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkageTableView.app/LinkageTableView";
+			};
+			name = Debug;
+		};
+		D94392571EBC849300301313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3637NJMX7D;
+				INFOPLIST_FILE = LinkageTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.occode.LinkageTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkageTableView.app/LinkageTableView";
+			};
+			name = Release;
+		};
+		D94392591EBC849300301313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3637NJMX7D;
+				INFOPLIST_FILE = LinkageTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.occode.LinkageTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LinkageTableView;
+			};
+			name = Debug;
+		};
+		D943925A1EBC849300301313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3637NJMX7D;
+				INFOPLIST_FILE = LinkageTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.occode.LinkageTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LinkageTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D94392201EBC849300301313 /* Build configuration list for PBXProject "LinkageTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94392501EBC849300301313 /* Debug */,
+				D94392511EBC849300301313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D94392521EBC849300301313 /* Build configuration list for PBXNativeTarget "LinkageTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94392531EBC849300301313 /* Debug */,
+				D94392541EBC849300301313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D94392551EBC849300301313 /* Build configuration list for PBXNativeTarget "LinkageTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94392561EBC849300301313 /* Debug */,
+				D94392571EBC849300301313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D94392581EBC849300301313 /* Build configuration list for PBXNativeTarget "LinkageTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94392591EBC849300301313 /* Debug */,
+				D943925A1EBC849300301313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D943921D1EBC849300301313 /* Project object */;
+}
